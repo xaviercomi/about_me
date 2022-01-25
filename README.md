@@ -1,3 +1,6 @@
+
+<body background="images/background.jpg
+                  
 #### Hi!
 
 ## This is my history.. 
@@ -20,3 +23,5 @@
   <img src="icons/postman.svg" width="100" height="50">
   
 </div>
+                                                      
+</body>
