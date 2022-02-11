@@ -1,4 +1,8 @@
-
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(187, 187, 187);
+}
 .container {
     align-content: center;
     position: relative;
@@ -18,19 +22,18 @@
 
 .container .btn {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     cursor: pointer;
     border-radius: 5px;
     width: 120px;
-    height: 20px;
+    height: 40px;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-size-adjust:initial;
     font-size: 14px;
+    background-color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -73,4 +76,30 @@
     color:rgb(255, 255, 255);
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    all: unset;
+}
+
+.banners {
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #292929;
+    color:rgb(0, 0, 0)
+}
+
+.banner {
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+ h4 {
+
+     width: 100%;
+     text-align-last: center;
+     border-radius: 5px;
+     color: rgb(122, 122, 122);
 }
