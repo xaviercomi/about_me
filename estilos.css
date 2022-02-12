@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #ecebeb;
 }
 
 ::-webkit-scrollbar {
@@ -17,12 +17,6 @@ body {
 .container img {
     width: 100%;
     height: auto;
-}
-
-.icon {
-    padding: 20px;
-    width: 60px;
-    height: 60px;
 }
 
 .container .btn {
@@ -53,38 +47,10 @@ body {
     background: rgb(63, 63, 63)
 }
 
-.menu {
-    display: none;
-    width: 100%;
-    background: #2f2f2f;
-    font-size: 12px;
+.banner {
     text-align: center;
-    position:sticky;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.menu ul {
-    list-style: none;
-}
-
-.menu ul li {
-    display: inline-block;
-    padding: 20px;
-    transition: all .3s ease;
-}
-
-.menu ul li:hover {
-    transform: scale(1.2);
-    background: #5a4f4d
-}
-
-.menu ul li a {
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-button {
-    all: unset;
 }
 
 .banners {
@@ -92,50 +58,29 @@ button {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #292929;
-    color:rgb(0, 0, 0)
 }
 
-.banner {
-    padding: 5px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
-}
- h4 {
-
-     width: 100%;
-     text-align-last: center;
-     border-radius: 5px;
-     color: rgb(122, 122, 122);
-}
-
-#flashCard {
-    width: 25%;
-    height: 25%;
-}
-
-#bigFlashCard {
-    width: 18%;
-    height: 18%;
+h5 {
+    width: 100%;
+    text-align-last: center;
+    border-radius: 5px;
+    color: rgb(124, 124, 124);
 }
 
 .hide {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 5%;
     display: none;
 }
 
-.open {
-    padding: 0;
-    margin: 0;
-    margin-right: 60%;
-    width: 100%;
-}
-
-#link {
-    width: 2%;
-    height: 2%;
-    margin-left: 80%;
-}
-
-.open:hover + .hide {
+.banner:hover + .hide {  
     display: block;
+}
+
+.icon {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
 }
